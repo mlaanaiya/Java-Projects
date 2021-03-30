@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/mlaanaiy/1A/tob/tps/projet-court/.metadata/.plugins/org.eclipse.jdt.core
+1075720673.index
+646308851.index
