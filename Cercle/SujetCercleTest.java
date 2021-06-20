@@ -3,8 +3,8 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 /**
-  * Classe de test (incomplète) de la classe Cercle.
-  * @author	Xavier Crégut
+  * Classe de test de la classe Cercle.
+  * @author	Mahmoud LAANAIYA
   * @version	$Revision$
   */
 public class SujetCercleTest {

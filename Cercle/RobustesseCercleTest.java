@@ -3,10 +3,14 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 /** Classe de test pour la robustesse de la classe Cercle.
-  * @author	Xavier Crégut <Prenom.Nom@enseeiht.fr>
+  * @author	Mahmoud LAANAIYA
   */
 public class RobustesseCercleTest {
 
+	// Argument pour l´exécution en JUnit sur le terminal
+	public static void main(String[] args) {
+		org.junit.runner.JUnitCore.main("RobustesseCercleTest");
+        }
 	protected Cercle c1;
 
 	@Before public void setUp() {

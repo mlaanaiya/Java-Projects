@@ -8,12 +8,16 @@ import java.util.*;
   * L'objectif de cette classe est de vérifier que la classe Cercle a été
   * correctement programmée.
   *
-  * @author	Xavier Crégut
+  * @author	Mahmoud LAANAIYA
   * @version	$Revision$
   */
 
 public class FormeCercleTest {
 
+	// Argument pour l´exécution en JUnit sur le terminal
+	public static void main(String[] args) {
+		org.junit.runner.JUnitCore.main("FormeCercleTest");
+        }
 	// précision pour les comparaisons réelle
 	public final static double EPSILON = 0.001;
 

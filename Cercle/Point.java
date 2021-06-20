@@ -4,7 +4,7 @@ import java.awt.Color;
  * repère cartésien.  Un point peut être affiché et translaté.
  * Sa distance par rapport à un autre point peut être obtenue.
  *
- * @author  Xavier Crégut <Prénom.Nom@enseeiht.fr>
+ * @author  Mahmoud LAANAIYA
  */
 public class Point {
 	private double x;		// abscisse

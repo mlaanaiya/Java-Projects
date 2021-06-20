@@ -1,5 +1,5 @@
 /** Définir les propriétés d'un élément fermé du plan.
- * @author  Xavier Crégut
+ * @author  Mahmoud LAANAIYA
  * @version 1.3
  */
 public interface Mesurable2D {
