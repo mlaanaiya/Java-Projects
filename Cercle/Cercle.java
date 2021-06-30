@@ -107,7 +107,6 @@ public class Cercle implements Mesurable2D {
      */
     public boolean contient(Point p) {
 	assert (p != null);
-	Point c = new Point(this.centre.getX(), this.centre.getY());
 	return (this.rayon >= p.distance(this.centre));
     }
 

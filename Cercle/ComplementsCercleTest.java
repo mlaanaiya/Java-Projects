@@ -1,7 +1,6 @@
 import java.awt.Color;
 import org.junit.*;
 import static org.junit.Assert.*;
-import java.util.Random;
 /**
   * Compléments des tests manqués.
   * @author	LAANAIYA Mahmoud.
