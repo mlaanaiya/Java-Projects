@@ -1,0 +1,6 @@
+test {
+	String animals[] = new String[2];
+	String a1 = "lion";
+	String a2 = "girafe";
+	animals = {a1,a2};
+}

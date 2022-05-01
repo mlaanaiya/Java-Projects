@@ -1,0 +1,6 @@
+test {
+	int a = 1;
+	int *ptr = &a;
+	int b = *ptr;
+	*ptr = 2;
+}

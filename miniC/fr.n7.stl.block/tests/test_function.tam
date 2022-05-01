@@ -1,0 +1,25 @@
+LOADL 1
+CALL (SB) begin:incrementer
+LOADL 2
+CALL (SB) begin:sub
+SUBR IOut
+POP (0) 0
+HALT
+;(h + 1)
+begin:incrementer
+LOAD (1) -1[LB]
+LOADI (1)
+LOADL 1
+SUBR IAdd
+RETURN (1) 1
+end:incrementer
+;(a - b)
+begin:sub
+LOAD (1) -1[LB]
+LOADI (1)
+LOAD (1) -1[LB]
+LOADI (1)
+SUBR ISub
+RETURN (1) 1
+end:sub
+

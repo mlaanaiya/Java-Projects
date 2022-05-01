@@ -1,0 +1,21 @@
+PUSH 1
+LOADL 1
+STORE (1) 0[SB]
+;(a == 1)
+LOAD (1) 0[SB]
+LOADI (1)
+LOADL 1
+SUBR IEq
+JUMPIF (0) else1
+LOADL 2
+STORE (1) 0[SB]
+JUMP endif1
+else1
+LOADL 0
+STORE (1) 0[SB]
+endif1
+LOAD (1) 0[SB]
+SUBR IOut
+POP (0) 1
+HALT
+

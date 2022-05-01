@@ -1,0 +1,5 @@
+test {
+	<int,int> c = {0,1};
+	int f = fst c;
+	int s = snd c;
+}
